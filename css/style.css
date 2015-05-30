@@ -1,0 +1,206 @@
+/* General Styles */
+* {
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  color: #003149;
+  margin-top: 20px;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 48px;
+  font-weight: 100;
+  margin: 18px 0 6px 0;
+}
+
+h3{
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #8b8b8b;
+  margin: 0 0 0 12px;
+}
+
+h4{
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+h5{
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 2px 0 0 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+/* Framework */
+
+.row {
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+/* Header */
+
+.main-header{
+  border-bottom: 4px solid #d8d8d8;
+}
+
+.featured-header{
+  margin: 27px 0 16px 0;
+}
+
+.name{
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.title{
+  text-transform: uppercase;
+  text-align: right;
+}
+
+/* Main Content */
+
+.first-box{
+  text-align: left;
+  width: 33.3%;
+}
+
+.second-box{
+  text-align: right;
+  width: 33.3%;
+}
+
+.third-box{
+  text-align: center;
+  width: 33.3%;
+}
+
+.featured-img{
+  max-width: 95%;
+}
+
+.description{
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+}
+
+/*
+Image with rounded corners
+Citation: http://stackoverflow.com/questions/26421274/css-circular-cropping-of-rectangle-image
+ */
+
+.image-cropper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* Psuedo Classes */
+
+a:link {
+  color: #003149;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 765px) {
+  .first-box{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .second-box{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .third-box{
+    text-align: center;
+    width: 100%;
+  }
+
+  .featured-img{
+    max-width: 100%;
+  }
+}
